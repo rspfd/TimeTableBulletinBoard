@@ -1,0 +1,169 @@
+body
+{
+	color:#fff;
+	background-color:#333;
+	
+	font-family:monospace;
+	font-weight:normal;
+	font-style:normal;
+	font-weight:bold;
+}
+
+/* -------- */
+
+#header
+{
+	overflow:hidden;
+	width:100%
+}
+
+#linename
+{
+	padding:1vw;
+	text-align:right;
+	width:40%;
+	/* border-color:#ff3; 南武線風 */
+	/* border-color:#fc3; 札幌市営地下鉄東西線風 */
+	border-color:#cf3;
+	border-width:0 4vw 0 0;
+	border-style:solid;
+	float:left;
+}
+
+#linename-j
+{
+	margin:0;
+	font-size:5vw;
+}
+
+#linename-e
+{
+	font-size:3.2vw;
+	margin:0 0 1.2vw 0;
+}
+
+#linename-j,
+#linename-e
+{
+
+}
+
+#direction
+{
+	padding:1vw;
+	text-align:left;
+	width:40%;
+	float:left;
+}
+
+#direction-j
+{
+	margin:0;
+	font-size:3.4vw;
+}
+
+#direction-e
+{
+	font-size:2.6vw;
+	margin:0 0 2vw 0;
+}
+
+/* -------- */
+
+#timer
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:80%;
+	
+	background-color:#000;
+	
+	font-size:6.4vw;
+}
+
+.timer-tr
+{
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	padding:0;
+	background-color:#666;
+	
+}
+#type1,
+#type2
+{
+	width:31%;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	padding:0.1vw;
+	background-color:transparent;
+	color:#3c3;
+}
+#direction1,
+#direction2
+{
+	width:55%;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	padding:0.1vw;
+	background-color:transparent;
+	color:#c93;
+}
+#time1,
+#time2
+{
+	width:33%;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	padding:0.1vw;
+	background-color:transparent;
+	color:#3c3;
+}
+/* -------- */
+
+#footer
+{
+	overflow:hidden;
+	background-color:#000;
+	width:52%;
+	float:none;
+	clear:both;
+	padding:1vw;
+	margin:1vw 1vw 1vw auto;
+}
+
+#date,
+#time
+{
+	width:92%;
+	padding:0.3vw 2vw;
+	background-color:#666;
+	
+	
+	text-align:right;
+
+}
+
+#date
+{
+	width:75%;
+	color:#c93;
+	text-align:left;
+	margin :0.1vw 0.1vh;
+	padding:0.1vw 0.1vh;
+	font-size:4vw;
+}
+#time
+{
+	width:98%;
+	color:#c93;
+	text-align:right;
+	margin :0.1vw 0.1vh;
+	padding:0.1vw 0.1vh;
+	
+	font-size:8.8vw;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>駅電光掲示板風スクリーン</title>
+<meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<link rel="stylesheet" href="./css/style.css" />
+<script type="text/javascript" src="./js/date.js"  ></script>
+<script type="text/javascript" src="./js/showclock.js"></script>
+</head>
+
+<body onload="javascript:init();">
+
+<div id="header">
+<!--
+ <div id="linename">
+  <h1 id="linename-j">東西線</h1>
+  <h1 id="linename-e">Tozai Line</h1>
+ </div>
+ <div id="direction">
+  <h1 id="direction-j">大通・宮の沢方面</h1>
+  <h1 id="direction-e">for Odori &amp; Miyanosawa</h1>
+ </div>
+-->
+ <div id="linename">
+  <h1 id="linename-j">千歳線</h1>
+  <h1 id="linename-e">Chitose Line</h1>
+ </div>
+ <div id="direction">
+  <h1 id="direction-j">新千歳空港・苫小牧方面</h1>
+  <h1 id="direction-e">for Shin-Chitose Airport &amp; Tomakomai</h1>
+ </div>
+
+</div>
+
+<div id="timer">
+ <!--h1 id="timer1"><span id="type1">各停</span><span id="direction1">新さっぽろ</span><span id="time1">00:00</span></h1-->
+ <!--h1 id="timer2"><span id="type2">各停</span><span id="direction2">新さっぽろ</span><span id="time2">00:00</span></h1-->
+
+	<table>
+		<tr class="timer-tr">
+			<td id="type1"     >各停</td>
+			<td id="direction1">新さっぽろ</td>
+			<td id="time1"     >00:00</td>
+		</tr>
+		<tr class="timer-tr">
+			<td id="type2"     >各停</td>
+			<td id="direction2">新さっぽろ</td>
+			<td id="time2"     >00:00</td>
+		</tr>
+	</table>
+
+</div>
+
+
+<div id="footer">
+
+ <p id="date">2016/01/01(Sun)</p>
+ <p id="time">00:00:00</p>
+
+</div>
+
+</body>
+</html>
